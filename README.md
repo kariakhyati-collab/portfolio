@@ -1,6 +1,6 @@
 # Portfolio: Khyati Karia
 
-These are case studies of production systems I designed and shipped as a Forward Deployed Engineer.
+These are case studies of production systems I designed and shipped while working in the Founder's Office.
 They are client systems, so **the code is private and client names and data are left out**. Each one is described by its industry. I'm happy to walk through any of them live in an interview.
 
 **At a glance:** 90+ production apps · 2,000+ commits · 20+ AI agents running for real businesses · US and India clients
