@@ -108,6 +108,13 @@ A letter-of-intent generator for a commercial lender, with a pipeline of leads, 
 
 ---
 
-## Personal projects
+## Open-source projects (code + live demos)
 
-- **[Ved-Compass](https://ved-compass.vercel.app)**: an AI study planner that builds a personal study schedule.
+These are my own projects. They take the same ideas as the client systems above and rebuild them from scratch on fictional data, so you can read the code and try them.
+
+| Project | What it does | Links |
+|---|---|---|
+| 🤖 **Inbound: AI lead-reply agent**<br><sub>Next.js · Claude · Zod</sub> | Scores inbound sales enquiries, extracts requirements, maps them to catalogue SKUs and drafts a reply behind a human review gate. Handles prompt injection and never quotes prices. | [Live](https://khyati-lead-reply-agent.vercel.app) · [Code](https://github.com/kariakhyati-collab/lead-reply-agent) |
+| 🧾 **Reconcile: invoice → payment matcher**<br><sub>TypeScript · 95 tests</sub> | Multi-pass matching engine (exact, fuzzy name, split payments, short-pays, overpayments, duplicates), AR ageing and reminder drafts that escalate in tone. Runs fully in the browser. | [Live](https://khyati-invoice-matcher.vercel.app) · [Code](https://github.com/kariakhyati-collab/invoice-payment-matcher) |
+| 📐 **Quotewell: quote & proposal builder**<br><sub>Next.js · react-pdf</sub> | Mini CRM with a quote pipeline, integer-cent pricing engine (markup, discounts, two tax methods) and branded PDF proposals that hide cost and margin. | [Live](https://khyati-quote-builder.vercel.app) · [Code](https://github.com/kariakhyati-collab/quote-proposal-builder) |
+| 🎓 **Ved-Compass** | AI study planner that builds a personal study schedule. | [Live](https://ved-compass.vercel.app) · [Code](https://github.com/kariakhyati-collab/Ved-Compass) |
