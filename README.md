@@ -14,7 +14,6 @@ They are client systems, so **the code is private and client names and data are 
 | 5 | [Order-to-cash & AP agents](#5-order-to-cash--ap-agents) | Manufacturing | ERP connectors, Composio (Outlook), Postgres |
 | 6 | [LOI desk & follow-up engine](#6-loi-desk--follow-up-engine) | Commercial lending | Next.js, signed webhooks, Resend |
 | 7 | [B2B websites at scale](#7-b2b-websites-at-scale) | 20+ industrial & professional-services firms | Static generators, Vercel, Cloudflare R2, Replicate |
-| 8 | [AI video production pipelines](#8-ai-video-production-pipelines) | Children's content (personal) | Python, Replicate, ffmpeg, Pillow |
 
 ---
 
@@ -106,17 +105,6 @@ A letter-of-intent generator for a commercial lender, with a pipeline of leads, 
 - redirect migrations that keep SEO when an old site is replaced
 - an **AI hero video built at deploy time**: models on Replicate render the clip, with a still-image fallback and a reduced-motion setting
 - hosting on Vercel and on Cloudflare R2
-
----
-
-## 8. AI video production pipelines
-
-A personal project: full pipelines that turn a script into finished children's videos (an animated animal series, 35 sing-along songs and a set of illustrated folk tales).
-- chained image → video → voice/music models, with **characters that stay consistent** from shot to shot
-- captions timed to the lyrics, rendered as PNG sequences with Pillow and overlaid with ffmpeg
-- review stills before any expensive render, and automatic retries when a render fails
-
-**Stack.** Python · Replicate · ffmpeg · Pillow
 
 ---
 
