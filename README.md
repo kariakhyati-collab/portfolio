@@ -118,3 +118,14 @@ These are my own projects. They take the same ideas as the client systems above 
 | 🧾 **Reconcile: invoice → payment matcher**<br><sub>TypeScript · 95 tests</sub> | Multi-pass matching engine (exact, fuzzy name, split payments, short-pays, overpayments, duplicates), AR ageing and reminder drafts that escalate in tone. Runs fully in the browser. | [Live](https://khyati-invoice-matcher.vercel.app) · [Code](https://github.com/kariakhyati-collab/invoice-payment-matcher) |
 | 📐 **Quotewell: quote & proposal builder**<br><sub>Next.js · react-pdf</sub> | Mini CRM with a quote pipeline, integer-cent pricing engine (markup, discounts, two tax methods) and branded PDF proposals that hide cost and margin. | [Live](https://khyati-quote-builder.vercel.app) · [Code](https://github.com/kariakhyati-collab/quote-proposal-builder) |
 | 🎓 **Ved-Compass** | AI study planner that builds a personal study schedule. | [Live](https://ved-compass.vercel.app) · [Code](https://github.com/kariakhyati-collab/Ved-Compass) |
+
+---
+
+## Prototypes
+
+Quick clickable prototypes I build to test a product idea with real users before writing the full product. Each one has product notes covering the problem, assumptions and what I'd measure. [All prototypes →](https://khyati-prototypes.vercel.app)
+
+| Prototype | What it shows | Links |
+|---|---|---|
+| 💬 **Chat ordering bot**<br><sub>Distribution · India</sub> | Kirana stores order from a distributor over chat, in English or Hinglish. The bot reads the order, offers substitutes for out-of-stock items, checks credit and books a delivery slot. The ops console shows the order arrive and move through to dispatch. | [Try it](https://khyati-prototypes.vercel.app/order-bot) · [Code](https://github.com/kariakhyati-collab/product-prototypes) |
+| 📱 **Field-sales mobile app**<br><sub>Field sales · India</sub> | A rep's day: route and target, shop check-in, orders with schemes, slab discounts and GST, UPI/cash/cheque collection against the oldest invoice, and offline sync. | [Try it](https://khyati-prototypes.vercel.app/field-sales) · [Code](https://github.com/kariakhyati-collab/product-prototypes) |
